@@ -15,12 +15,12 @@ npm install --save react-rerender-test
 ```tsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-rerender-test'
-import 'react-rerender-test/dist/index.css'
+import  RerenderTest  from 'react-rerender-test'
+
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <RerenderTest />
   }
 }
 ```
