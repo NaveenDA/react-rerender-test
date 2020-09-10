@@ -1,10 +1,17 @@
-import React from 'react'
+import React, { useState } from "react";
 
-import { ExampleComponent } from 'react-rerender-test'
-import 'react-rerender-test/dist/index.css'
+import AnotherPage from "./AnotherApp";
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
-}
+  const [count, setCount] = useState(1);
 
-export default App
+  return (
+    <div>
+      <button onClick={() => setCount(count + 1)}> Click </button>
+      <p>Count : {count} </p>
+      <AnotherPage />
+    </div>
+  );
+};
+
+export default App;
