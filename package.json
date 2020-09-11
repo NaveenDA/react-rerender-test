@@ -1,6 +1,6 @@
 {
   "name": "react-rerender-test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple react component to test the component re-render",
   "author": "NaveenDA",
   "license": "MIT",
