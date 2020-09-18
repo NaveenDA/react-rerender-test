@@ -6,7 +6,7 @@ interface Props {
   [key: string]: any;
 }
 
-const RerenderTest = (props: Props) => {
+const RerenderTest: React.FC<Props> = (props: Props) => {
   const [color, setColor] = React.useState("");
 
   const randomColor = () => {
